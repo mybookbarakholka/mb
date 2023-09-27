@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/img-constants/icon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>MyBook</title>
+</head>
+
+<body class="container">
+    <header class="header"  id="top">
+        <h1 class="header__title">MyBook</h1>
+        <!-- <button class="header__liked">
+            <img src="./img-components/heart.svg" alt="" height="20px">
+        </button> -->
+    </header>
+    <main>
+
+
+        <form action="" class="search-form">
+            <label class="search-form__label" for="search">Яку книжку чи автора шукаєш?</label>
+            <input class="search-form__input" id="search" autocomplete="off" name="search" type="text"
+                placeholder="Введи назву книги або ім'я автора для пошуку...">
+        </form>
+
+
+        <div class="books" id="books">
+          
+        </div>
+
+        <button href="#top" id="scroll-to-top" class="scroll-to-top"></button>
+
+    </main>
+
+
+    <script src="./components/createElement.js"></script>
+    <script src="constants/books.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/search.js" defer></script>
+
+</body>
+
+</html>
