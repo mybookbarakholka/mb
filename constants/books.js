@@ -1,36 +1,18 @@
 let booksbase = [
     {
         id: 0,
-        title: "Піранезі",
-        author: "Сюзанна Кларк",
+        title: "Збірка: Айвенго, Робін Гуд",
+        author: "Чарльз Вільсон, Дж. Макспедден, Вальтер Скотт",
         offers:
             [{
                 oId: 'o0',
-                price: 'Купівля',
+                price: '80',
                 city: "Poltava",
-                condition: "10/10",
-                link: "@o.v.gonchar",
-                comment: "Відправка тільки новою поштою",
-                postLink: "https://www.instagram.com/p/Cwzlp_ttE5u/",
-                authorLink: "https://www.instagram.com/o.v.gonchar/"
-            },
-            {
-                oId: 'o1',
-                price: 350,
-                city: "Kyiv",
-                condition: "10/10",
-                link: "@tea_chay_66",
-                postLink: "https://www.instagram.com/p/CwnOVwYt5NL/?img_index=1",
-                authorLink: "https://www.instagram.com/tea_chay_66/"
-            },
-            {
-                oId: 'o2',
-                price: 'Купівля',
-                city: "Kyiv",
-                condition: "10/10",
-                link: "@tea_cha",
-                postLink: "https://www.instagram.com/p/CwnOVwYt5NL/?img_index=1",
-                authorLink: "https://www.instagram.com/tea_chay_66/"
+                condition: "6/10",
+                link: "@vvvv4804",
+                comment: "Пожовклі сторінки. Зустрічі немає, в Полтаві можлива педача через поштомат нової пошти. В інші міста відправка будь якою поштою, можливе замовлення, через олх",
+                postLink: "https://www.instagram.com/my.book_barakholka/?img_index=1",
+                authorLink: "https://www.instagram.com/vvvv4804/"
             }]
     },
 ]
