@@ -6,7 +6,7 @@ let booksbase = [
         offers:
             [{
                 oId: 'o0',
-                price: '80',
+                price: 80,
                 city: "Poltava",
                 condition: "6/10",
                 link: "@vvvv4804",
